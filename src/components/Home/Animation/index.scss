@@ -1,0 +1,22 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  position: absolute;
+  top: 120px;
+  right: 190px;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo-container {
+    z-index: 0;
+    position: absolute;
+    top: 71px;
+    left: 74px;
+    height: 269px;
+  }
+  .injected-svg {
+	width: 268px;
+	height: 247px;
+  }
+}
